@@ -7,3 +7,5 @@ I will focus usually on malware anlysis - only on binary/byte operations, encryp
 
 This repo is not about excellent scripting in python, it will only serve to help or find inspiration for others.
 Hope that somebody will find it useful and save some time with it.
+
+Recommended to start with MAIN_Data_type_manipulation_conversion.py
