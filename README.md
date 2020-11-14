@@ -1,5 +1,5 @@
 # Python3 - Binary-Data-Manipulation
-Python 3 - Manipulation and conversation with different data types (Bytes operations)
+Python 3 - Manipulation and conversion with different data types (Bytes operations)
 
 I created this repo to help anybody with some examples of Data type conversion in Python 3. I will be adding more examples.
 Also as I am scripting in more languages sometimes I forget basics and this could serves as easy refresh.
