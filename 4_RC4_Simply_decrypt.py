@@ -1,0 +1,10 @@
+from Crypto.Cipher import ARC4
+
+
+message = '43665783a5238977beac1b1f878f58933f24cf2cd39aa8d111c4bca67fcd38dbb33c034babf560c560d20d1d1888415b4f06176c9e0b01739d836018fa8bfff84d78b2a4246faebd92d1eccc2d7c8bbfd08cbde245ef15b288bca459be20acf957df10babcd911934119009c0225efc44a26fd25ca9b8519644ec5849fa100182c6830dc704cfe83f1c7002b497a830905776e0a088d56e4387e880f2c41e43366c9bc06aa2aa1962d94c008161ea4f2811a83f77cb57d6313004196ca6980ae49e95d0f7d8943d4891a01b46161'
+key = b'intrepidmango'
+cipher = ARC4.new(key)
+msg = cipher.decrypt(bytes.fromhex(message))
+
+print('RC4 decrypted message:',msg)
+
