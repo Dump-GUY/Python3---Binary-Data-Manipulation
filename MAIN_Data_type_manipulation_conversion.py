@@ -92,6 +92,16 @@ bytes13 = b"\x68\x65\x6c\x6c\x6f\x20\x77\x6f\x72\x6c\x64\x2c\x20\x63\x6f\x76\x69
 for i in range(0,len(bytes13),4):
     list_of_integers3.append(int.from_bytes(bytes13[i:i+4], byteorder='big', signed=False))
 
+#converting bytes to list of integers - 1 byte = 1 integer
+list_of_integers4 = []
+bytes14 = b"\x68\x65\x6c\x6c\x6f\x20\x77\x6f\x72\x6c\x64\x2c\x20\x63\x6f\x76\x69\x64\x20\x73\x75\x63\x6b\x73"
+list_of_integers4 = list(bytes14)
+
+#converting string to list of chars
+string12 = "Hello world!"
+list_of_chars3 = list(string12)
+
+
 #tuple example - something like read-only list of diferent types
 My_tuple1 = ("hello", 126 , 33.25,b"\x41\x41")
 My_tuple2 = (My_tuple1[0],My_tuple1[3])
